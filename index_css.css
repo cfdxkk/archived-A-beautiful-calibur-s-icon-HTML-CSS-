@@ -1,0 +1,101 @@
+body {
+	/* width: 99%;
+	height: 90vh;
+    color: #fff; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+#frame{
+    width: 50vh;
+    height: auto;
+
+    margin: 0 auto;
+    margin-top: 21.5vh;
+
+
+
+	/* background-color: black; */
+	/*测试用凸显颜色*/
+	
+	border: #fff solid 0.5vh;  /*边框*/
+	border-radius: 8vh; /*边框圆角*/
+    opacity:0.5;   /*图片透明效果*/
+    filter:alpha(opacity=50);   /*图片透明效果_兼容ie*/
+}
+#icon{
+
+    
+    width: 100%;
+
+
+
+    opacity:0.8;   /*图片透明效果*/
+    filter:alpha(opacity=80);   /*图片透明效果_兼容ie*/
+}
+
+#icon:hover{
+
+
+	
+}

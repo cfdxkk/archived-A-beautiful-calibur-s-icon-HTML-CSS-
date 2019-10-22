@@ -75,12 +75,12 @@ body {
 
 
 
-	/* background-color: black; */
+	/* background-color: aqua; */
 	/*测试用凸显颜色*/
 	
 	border: #fff solid 0.5vh;  /*边框*/
 	border-radius: 8vh; /*边框圆角*/
-    opacity:0.5;   /*图片透明效果*/
+    opacity:0.5;   /*透明效果*/
     filter:alpha(opacity=50);   /*图片透明效果_兼容ie*/
 }
 #icon{
@@ -96,6 +96,6 @@ body {
 
 #icon:hover{
 
-
+	opacity:1; 
 	
 }
